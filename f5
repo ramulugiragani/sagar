@@ -1,0 +1,43 @@
+rhis is the my first azure devops project now im working to the campany called the pepsico  the total experience i have azure devops is 1.8
+at present im working as a devops engineer the all the concepts with is now to me is 
+
+azure pipelines with
+self hosted agent and microsoft hosted
+their ar two ways to create the pipeline and they are 
+yaml pipeline
+classic editor
+yaml allow to fully implement the ci cd tool
+ci cd is nothing but the set tool must perform to deliver the new version of the software
+yaml is nothing but yet another markup language.
+it is the human readable.
+yaml pipeline consists of cicd 
+ci
+restore
+build
+test 
+publish
+cd
+db
+deploy the artifact
+
+classic pipeline consist of the 
+
+ci 
+run the service
+build service
+test service
+publish service
+
+cd
+
+agent
+
+db
+deploy the artifact 
+
+to congfiur the self hosted we have follow this steps 
+
+first  we need to create the personal token to create the personal token we need to open uesr settting in that you will see the personal token click on that. it will genrate the the personal key cop that.
+now go to the project setting under project setting you will see the  pipeline under pipeline setting you will see the agent pool. click on that then select he new agent and select he agent selft hosted agent.
+gave the name then save it will the file the ope the cloud shell and paste that command then you store the personal token in that.
+this is the process to add the self hosted agent we should configure alla the things when comming to the microsoft hosted microsoft will take care of all the things.after the jobs compelete then the agent is delete the automatically.
